@@ -1,6 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* --- HEADER (Ayla) --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "" SF Pro Text ", " SF Pro Icons ", " Helvetica Neue
+    ", Helvetica, Arial, sans-serif;";
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(92, 88, 88);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.list-content {
+  padding: 20px;
+  font-size: 12px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-bag {
+  color: white;
+  padding: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.7;
+}
 
 /* --- MAIN (Soydan) --- */
+
+main {
+  font-family: "Roboto", sans-serif;
+}
+
+.big-section {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: 75vh;
+  cursor: pointer;
+}
+
+.big-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big-text-container {
+  position: absolute;
+  top: 3rem;
+  left: 0rem;
+  right: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text-container > h2 {
+  font-size: 3.75rem;
+  margin-bottom: 0.05em;
+  font-weight: 600;
+}
+
+.big-text-container > h3 {
+  font-size: 1.75rem;
+  font-weight: lighter;
+  margin-bottom: 0.4em;
+  gap: 1rem;
+}
+
+.big-link-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.big-link-container > a {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+a {
+  color: #2997ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dark-text {
+  color: #1d1d1f;
+}
+
+.messi-text-container {
+  position: absolute;
+  top: 5rem;
+  left: 0rem;
+  right: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.messi-text-container > h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 25%;
+}
+
+.tiles-section {
+  position: relative;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tile {
+  position: relative;
+  width: 49%;
+  height: 70vh;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.tile-video {
+  background-size: cover;
+  height: 100%;
+}
+
+.tile-text-container {
+  position: absolute;
+  top: 3rem;
+  left: 0rem;
+  right: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tile-text-container > h2 {
+  width: 40%;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.05em;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.tile-text-container > h3 {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  margin-bottom: 0.75em;
+  gap: 1rem;
+}
+
+.tile-2-text {
+  top: 30rem;
+}
+
+.tile-2-text > p {
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.tile-3-text {
+  color: white;
+}
+
+.tile-3-text > h4 {
+  color: rgb(209, 0, 0);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.tile-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.tile-4-text > h3 {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 0.5em;
+  overflow-wrap: break-word;
+}
 
 /* --- FOOTER (Piotr) --- */
 /* --- FOOTER Reset --- */
