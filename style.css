@@ -169,7 +169,7 @@ a:hover {
 
 .tile {
   position: relative;
-  width: 49%;
+  width: 49.5%;
   height: 70vh;
   cursor: pointer;
   overflow: hidden;
