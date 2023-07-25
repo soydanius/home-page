@@ -276,6 +276,9 @@ footer {
   padding-left: 15px;
   margin-bottom: 10px;
 }
+.ListInfo>li {
+    padding-bottom: 10px;
+}
 .infoStatements > p {
   margin-bottom: 10px;
 }
@@ -367,9 +370,13 @@ footer {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+/*final positioning of the footer*/
 footer {
   padding-bottom: 30px;
+  padding-top: 20px;
+  margin-top: 110px;
 }
+/*responsiveness */
 @media only screen and (max-width:833px) {
     .secondLine {visibility: hidden;
        }
